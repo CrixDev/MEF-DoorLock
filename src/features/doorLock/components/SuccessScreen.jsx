@@ -96,7 +96,7 @@ export const SuccessScreen = () => {
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.2 }}
           >
-            Access Granted!
+            ¡Acceso Concedido!
           </motion.h1>
           <motion.p
             className="text-xl text-slate-300"
@@ -104,7 +104,7 @@ export const SuccessScreen = () => {
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.3 }}
           >
-            Welcome inside! 🎉
+            ¡Bienvenido! 🎉
           </motion.p>
         </div>
 
@@ -117,9 +117,9 @@ export const SuccessScreen = () => {
           initial={{ y: 20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.4 }}
-          aria-label="Lock door again"
+          aria-label="Cerrar puerta de nuevo"
         >
-          🔒 Lock Door Again
+          🔒 Cerrar Puerta
         </motion.button>
       </motion.div>
     </motion.div>

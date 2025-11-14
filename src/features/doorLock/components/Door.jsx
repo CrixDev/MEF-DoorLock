@@ -27,7 +27,7 @@ export const Door = () => {
           : doorAnimations.locked
       }
       role="img"
-      aria-label={isUnlocked ? 'Door open' : 'Door closed'}
+      aria-label={isUnlocked ? 'Puerta abierta' : 'Puerta cerrada'}
       aria-live="polite"
     >
       {/* Door Panel */}
@@ -55,7 +55,7 @@ export const Door = () => {
           <span className={`text-xs font-bold ${
             isUnlocked ? 'text-green-500' : 'text-red-500'
           }`}>
-            {isUnlocked ? 'UNLOCKED' : 'LOCKED'}
+            {isUnlocked ? 'ABIERTA' : 'CERRADA'}
           </span>
         </div>
         

@@ -175,7 +175,7 @@ export const Keypad = () => {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="w-20 h-20 bg-black text-white text-3xl font-bold rounded-2xl shadow-lg hover:bg-gray-900 active:bg-gray-800 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
-                aria-label={`Number ${num}`}
+                aria-label={`Número ${num}`}
               >
                 {num}
               </motion.button>
@@ -191,7 +191,7 @@ export const Keypad = () => {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="w-20 h-20 bg-black text-white text-3xl font-bold rounded-2xl shadow-lg hover:bg-gray-900 active:bg-gray-800 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
-            aria-label="Number 0"
+            aria-label="Número 0"
           >
             0
           </motion.button>
